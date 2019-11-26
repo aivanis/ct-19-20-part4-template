@@ -89,4 +89,4 @@ struct MyDCE : public FunctionPass
 } // namespace
 
 char MyDCE::ID = 0;
-static RegisterPass<MyDCE> X("live", "My dead code elimination");
+static RegisterPass<MyDCE> X("mypass", "My dead code elimination");
