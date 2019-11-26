@@ -55,4 +55,4 @@ namespace {
 }
 
 char SimpleDCE::ID = 0;
-static RegisterPass<SimpleDCE> X("skeletonpass", "Simple dead code elimination");
+static RegisterPass<SimpleDCE> X("mypass", "Simple dead code elimination");
